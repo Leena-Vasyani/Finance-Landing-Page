@@ -1,0 +1,477 @@
+@font-face {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('https://fonts.cdnfonts.com/s/65008/ClashDisplayRegular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 200;
+    src: url('https://fonts.cdnfonts.com/s/65008/ClashDisplayExtralight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 300;
+    src: url('https://fonts.cdnfonts.com/s/65008/ClashDisplayLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    src: url('https://fonts.cdnfonts.com/s/65008/ClashDisplayMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    src: url('https://fonts.cdnfonts.com/s/65008/ClashDisplaySemibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('https://fonts.cdnfonts.com/s/65008/ClashDisplayBold.woff') format('woff');
+}
+
+body {
+    font-family: 'Clash Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home nav{
+    align-items: center;
+    height: 60px;
+}
+
+.home nav ul button{
+    margin-right: 250px;
+}
+
+.home nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.home nav ul div{
+    text-decoration: none;
+    /* list-style-type: none; */
+    display: flex;
+    flex-direction: row;
+}
+
+.home nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.home nav ul li a:hover{
+    border-bottom: #FF5555 solid 2px;
+}
+
+.home nav ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+
+.home nav ul li #active{
+    color: #FF5555;  
+}
+
+.home nav #logo{
+    margin-right: 0;
+}
+
+.home nav #tm{
+    margin-left: 0; 
+}
+
+.home h1{
+    font-weight: 800;
+    font-size: 54px;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-top: 90px;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+.home p{
+    width: 75%;
+}
+
+.home .left{
+    width: 50%;
+    margin-left: 10%;
+}
+
+.home .right{
+    width: 50%;
+}
+
+.home .tilted-phones #phone1{
+    position: absolute;
+    top: 10px;
+    right: 20%;
+    z-index: 0;
+}
+
+.home .tilted-phones #phone2{
+    position: absolute;
+    top: 12%;
+    right: 12%;
+    z-index: -1;
+}
+
+.home .tilted-phones #phone3{
+    position: absolute;
+    top: 22%;
+    right: 10%;
+    z-index: -2;
+}
+
+.home .tilted-phones #ellipse1{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    z-index: -3;
+}
+
+.home .tilted-phones #ellipse2{
+    position: absolute;
+    top: 20%;
+    right: 14%;
+    z-index: -4;
+}
+
+.home .tilted-phones #ellipse3{
+    position: absolute;
+    top: 26%;
+    right: 16%;
+    z-index: -5;
+}
+
+.home .stars #star1{
+    position: absolute;
+    top: 12%;
+    left: 3%;
+}
+
+.home .stars #star2{
+    position: absolute;
+    top: 6%;
+    right: 8%;
+    transform: rotate(-45deg);
+}
+
+.home .stars #star3{
+    position: absolute;
+    bottom: 25%;
+    left: 20%;
+}
+
+.home .stars #star4{
+    position: absolute;
+    bottom: 8%;
+    right: 42%;
+    transform: rotate(-60deg);
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    height: 100vh; 
+}
+
+.features #phone{
+    transform: rotate(15deg);
+}
+
+.features .left{
+    width: 50%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.features .right{
+    width: 40%;
+    display: inline-block;
+}
+
+.features #ellipse4{
+    position: absolute;
+    top: 121%;
+    left: 8%;
+    z-index: -3;
+}
+
+.features #ellipse5{
+    position: absolute;
+    top: 126%;
+    left: 6%;
+    z-index: -3;
+}
+
+.features #ellipse6{
+    position: absolute;
+    top: 131%;
+    left: 4%;
+    z-index: -3;
+}
+
+.features .right h3{
+    margin-bottom: 3px;
+}
+
+.features .right h3 i{
+    color: #FF5555;
+}
+
+.home .container {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px; 
+    margin: 20px 0; 
+}
+
+.home .container button {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    padding: 10px 20px;
+}
+
+.home .container i {
+    font-size: 25px;
+}
+
+.home .container span {
+    display: inline-block;
+}
+
+.advantages .container{
+    display: flex;
+    flex-direction: row;
+    /* margin: auto; */
+    position: relative;
+    /* justify-content: space-between; */
+}
+
+.advantages .container .left, .advantages .container .right{
+    width: 50%;
+    align-items: center;
+}
+
+.advantages .container .left h3, .advantages .container .right h3{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    margin-top: 8px;
+    margin-left: 50px;
+}
+
+.advantages .container .left div, .advantages .container .right div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.advantages .container .left div img, .advantages .container .right div img{
+    height: 45px;
+    width: 40px;
+    top: 60%;
+}
+
+.advantages .container .right div img{
+    top: 55%;
+}
+
+.advantages .container .left p, .advantages .container .right p{
+    width: 70%;
+}
+
+.advantages .container .right img, .advantages .container .left img{
+    position: absolute;
+    top: 0;
+}
+
+.advantages #phone{
+    transform: rotate(15deg);
+}
+
+.advantages #ellipse7{
+    position: absolute;
+    bottom: 30%;
+    left: 3%;
+    z-index: -3;
+}
+
+.advantages #ellipse8{
+    position: absolute;
+    top: 126%;
+    left: 6%;
+    z-index: -3;
+}
+
+.advantages #ellipse9{
+    position: absolute;
+    top: 131%;
+    left: 4%;
+    z-index: -3;
+}
+
+.advantages #star5{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+}
+
+.advantages #star6{
+    position: absolute;
+    bottom: -55%;
+    right: 18%;
+    transform: rotate(20deg);
+}
+
+.advantages .right .gradient-new{
+    bottom: -10%;
+    left: 59%;
+}
+
+.advantages .left .gradient-new{
+    bottom: -40%;
+    left: 10%;
+    transform: rotate(45deg);
+}
+
+@media only screen and (max-width: 767px) {
+    .home nav ul {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .home nav ul div {
+        flex-direction: column;
+    }
+
+    .home nav ul button {
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .home .left, .home .right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .home .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home h1 {
+        font-size: 36px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .home p {
+        width: 90%;
+    }
+
+    .features, .advantages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features .left, .features .right, 
+    .advantages .container .left, .advantages .container .right {
+        width: 100%;
+        margin: 0;
+    }
+
+    .features .left {
+        margin-top: 20px;
+    }
+
+    .advantages .container {
+        flex-direction: column;
+    }
+
+    .advantages .container .left, .advantages .container .right {
+        margin-top: 20px;
+    }
+
+    .advantages .container .right {
+        margin-left: 0;
+    }
+
+    .home .tilted-phones img {
+        top: auto;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .home .stars img {
+        display: none;
+    }
+
+    .features #ellipse4, .features #ellipse5, .features #ellipse6,
+    .advantages #ellipse7, .advantages #ellipse8, .advantages #ellipse9 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .home nav ul {
+        margin-left: 0;
+    }
+
+    .home nav ul button {
+        margin-right: 0;
+    }
+
+    .home .left, .home .right {
+        width: 100%;
+    }
+
+    .home h1 {
+        font-size: 48px;
+        width: 90%;
+    }
+
+    .home p {
+        width: 90%;
+    }
+
+    .features .left, .features .right, 
+    .advantages .container .left, .advantages .container .right {
+        width: 90%;
+    }
+
+    .home .tilted-phones #phone1,
+    .home .tilted-phones #phone2,
+    .home .tilted-phones #phone3 {
+        right: 10%;
+    }
+
+    .features #ellipse4, .features #ellipse5, .features #ellipse6,
+    .advantages #ellipse7, .advantages #ellipse8, .advantages #ellipse9 {
+        display: none;
+    }
+}

@@ -1,0 +1,105 @@
+.black-btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.description{
+    color: gray;
+    font-size: 16px;
+    width: 80%;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.gradient {
+    background-image: linear-gradient(#FF5555 50%, #FDE598);
+    height: 200px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    z-index: -1;
+    filter: blur(10px);
+    opacity: 0.7;
+    /* animation: animateGradient 3s infinite; */
+}
+
+.smoke {
+    content: "";
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top right, rgba(255, 85, 85, 0.5), rgba(253, 229, 152, 0.5));
+    filter: blur(20px);
+    opacity: 0.5;
+    z-index: -2;
+    /* animation: smokeAnimation; */
+}
+
+.gradient-below{
+    background-image: linear-gradient(#FF5555 50%, #FFFFFF);
+    height: 250px;
+    width: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: 72%;
+    left: 57%;
+    z-index: -4;
+    filter: blur(10px);
+    opacity: 0.7;
+}
+
+.gradient-new{
+    background-image: linear-gradient(#FDE598, #FF5555 50%);
+    height: 270px;
+    width: 370px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -60%;
+    left: 7%;
+    z-index: -4;
+    filter: blur(10px);
+    opacity: 0.7;
+    /* animation: animateGradient 3s infinite; */
+}
+
+.gradient3 {
+    background-image: linear-gradient(to bottom, #FF5555 50%, #FDE598);
+    height: 150px; 
+    width: 200px;
+    border-radius: 100px 100px 0 0; 
+    position: absolute;
+    bottom: -60%; 
+    right: 4%;
+    z-index: -4;
+    filter: blur(10px);
+    opacity: 0.7;
+    transform: rotate(-90deg);
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 32px;
+    letter-spacing: 0.2px;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+
+.sub-heading{
+    color: #FF5555;
+    margin-bottom: 0;
+    letter-spacing: 1.5px;
+}
